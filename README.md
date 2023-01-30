@@ -21,8 +21,13 @@ Create a basic bloom filter data structure in Javascript
 
 # Implementation
 
-- The default size for the set when is created all the values are "0" 
+**The default size for the set when is created all the values are "0"**
 
-- When item is added to the set, hash the value with two functions (hash1, hash2) and store the result in the set via index setting "1" for true
+<img src="https://github.com/mtorre4580/bloom-filters/blob/main/empty_bloom_filters.png" alt="empty bloom filters" />
 
-- When item is check, you need to obteain the hashes and check if both are true ("1"), if is true "possibly in set" if not "definitely not in set"
+**When item is added to the set, hash the value with two functions (hash1, hash2, hash3) and store the result in the set via index setting "1" for true**
+
+<img src="https://github.com/mtorre4580/bloom-filters/blob/main/bloom_filters.png" alt="bloom filters with hashes" />
+
+**When item is check, you need to obteain the hashes and check if both are true ("1"), if is true "possibly in set" if not "definitely not in set"**
+
