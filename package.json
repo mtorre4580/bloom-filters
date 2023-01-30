@@ -1,0 +1,14 @@
+{
+  "name": "bloom-filters",
+  "version": "1.0.0",
+  "description": "Bloom Filters in javascript",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "mtorre4580@outlook.com",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "murmurhash": "^2.0.1"
+  }
+}
